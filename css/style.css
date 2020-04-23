@@ -1,0 +1,73 @@
+
+@font-face {
+    font-family: 'SF UI Display';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Medium'), url('sf-ui-display-medium-58646be638f96.woff') format('woff');
+}
+@font-face {
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Text Medium'), url('SFUIText-Medium.woff') format('woff');
+    }
+    
+@media screen and (max-width: 768px) {
+    #main{
+        border-top:20px solid white;
+        border-bottom: solid 0.052vw #8a8a8a;
+        background-color: white;
+        /*padding:0.78px;*/
+    }
+    body{
+        padding-top:100px;
+    }
+    #ov{
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 769px) {
+    #main{
+        font-family: 'SF UI Display';
+        border-top:6.01vh solid white;
+        border-bottom: solid 0.052vw #8a8a8a;
+        background-color: white;
+        padding:0;
+        margin-left:6.51vw;
+        margin-right:6.51vw;
+    }
+    body{
+        padding-top:15vh;        
+        margin-left:6.51vw;
+        margin-right:6.51vw;
+    }
+    #ov{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5vw;
+        line-height: 3vw;
+        color: rgb(138, 138, 138);
+        margin:0vw;
+    }
+    #main li{
+        padding-left:1vw;
+        margin:0;
+        font-family: 'SF UI Text';
+        font-size: 1.09vw;
+        line-height: 1.302vw;
+        color: #8A8A8A;
+    }
+    main{
+        text-align: center;
+    }
+}
+
+
+.gradient{
+    background: linear-gradient(90deg, #02D973 0%, #05E451 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#ov span{
+    font-weight: bold;
+}
