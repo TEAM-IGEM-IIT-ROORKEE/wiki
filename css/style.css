@@ -29,11 +29,26 @@
     #ov{
         font-size: 25px;
     }
+    #intro{
+        font-family: 'SF UI Text';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 12.5px;
+    }
+    .hero-btn{
+        font-size: 10px;
+        line-height: 12px;
+        padding-top:11.4px;
+        padding-bottom:11.4px;
+        padding-left:25px;
+        padding-right:25px;
+        margin-top: 20px;
+    }
 }
 @media screen and (min-width: 769px) {
     #main{
         font-family: 'SF UI Display';
-        border-top:6.01vh solid white;
+        border-top:3.375vw solid white;
         border-bottom: solid 0.052vw #8a8a8a;
         background-color: white;
         padding:0;
@@ -41,7 +56,7 @@
         margin-right:6.51vw;
     }
     body{
-        margin-top:25vh;        
+        margin-top:8.43vw;        
         margin-left:6.51vw;
         margin-right:6.51vw;
     }
@@ -60,6 +75,22 @@
         font-size: 1.09vw;
         line-height: 1.302vw;
         color: #8A8A8A;
+    }
+    #intro{
+        font-family: 'SF UI Text';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 1.25vw;
+        line-height: 1.56vw;
+    }
+    .hero-btn{
+        font-size: 1vw;
+        line-height: 1.2vw;
+        padding-top:1.14vw;
+        padding-bottom:1.14vw;
+        padding-left:2.5vw;
+        padding-right:2.5vw;
+        margin-top: 2vw;
     }
 }
 
@@ -83,4 +114,10 @@
 .logo2{
     max-width: 150px;
     width:100%;
+}
+.hero-btn{
+    font-family: 'SF UI Text';
+    color:#FFFFFF;
+    background-image: linear-gradient(90deg, #02D973 -0.32%, #05E451 100.32%);
+    border-radius: 10000px;
 }
