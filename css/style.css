@@ -18,9 +18,13 @@
         border-bottom: solid 0.052vw #8a8a8a;
         background-color: white;
         /*padding:0.78px;*/
+        margin-left:6.51vw;
+        margin-right:6.51vw;
     }
     body{
         padding-top:100px;
+        margin-left:6.51vw;
+        margin-right:6.51vw;
     }
     #ov{
         font-size: 25px;
@@ -37,7 +41,7 @@
         margin-right:6.51vw;
     }
     body{
-        padding-top:25vh;        
+        margin-top:25vh;        
         margin-left:6.51vw;
         margin-right:6.51vw;
     }
@@ -71,10 +75,12 @@
 #main li .active{
     color: #02D973;
 }
-/*
+
 .logo1{
-    min-width: 50px;
+    max-width: 150px;
+    width: 100%;
 }
 .logo2{
-    min-width: 50px;
-}*/
+    max-width: 150px;
+    width:100%;
+}
