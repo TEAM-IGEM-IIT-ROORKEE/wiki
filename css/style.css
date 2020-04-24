@@ -13,7 +13,7 @@
 }
     
 @media screen and (max-width: 768px) {
-    #main{
+    #mainnav{
         border-top:20px solid white;
         border-bottom: solid 0.052vw #8a8a8a;
         background-color: white;
@@ -46,9 +46,9 @@
     }
 }
 @media screen and (min-width: 769px) {
-    #main{
+    #mainnav{
         font-family: 'SF UI Display';
-        border-top:3.375vw solid white;
+        /*border-top:3.375vw solid white;*/
         border-bottom: solid 0.052vw #8a8a8a;
         background-color: white;
         padding:0;
@@ -56,7 +56,12 @@
         margin-right:6.51vw;
     }
     body{
-        margin-top:8.43vw;        
+        /*margin-top:8.43vw;      */
+        margin-top: 4.5vw;  
+        /*margin-left:6.51vw;
+        margin-right:6.51vw;*/
+    }
+    #logos{
         margin-left:6.51vw;
         margin-right:6.51vw;
     }
@@ -68,7 +73,7 @@
         color: rgb(138, 138, 138);
         margin:0vw;
     }
-    #main li{
+    #mainnav li{
         padding-left:1vw;
         margin:0;
         font-family: 'SF UI Text';
@@ -120,4 +125,10 @@
     color:#FFFFFF;
     background-image: linear-gradient(90deg, #02D973 -0.32%, #05E451 100.32%);
     border-radius: 10000px;
+}
+.herobg{
+    z-index: -1;
+    position: relative;
+    top:-5vw;
+    
 }
