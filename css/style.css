@@ -23,6 +23,8 @@
     }
     body{
         padding-top:100px;
+    }
+    #logos{
         margin-left:6.51vw;
         margin-right:6.51vw;
     }
@@ -130,5 +132,4 @@
     z-index: -1;
     position: relative;
     top:-5vw;
-    
 }
