@@ -197,14 +197,14 @@
         line-height: 28.125px;
         margin-top: 3.85vw;
     }
-    .whatev .focus{
+    .sbsinfo .focus{
         font-size: 18.75px;
         line-height: 150%;
         font-family: 'SF UI Display Light';
         color: #04E05E;
         padding-bottom: 2%;
     }
-    .whatev .notfocus{
+    .sbsinfo .notfocus{
         font-size: 15.625px;
         line-height: 150%;
         font-family: 'SF UI Display Light';
@@ -213,7 +213,7 @@
     }
     #aboutigem .content{
         font-family: 'SF UI Display Light';
-        font-size: 18.75px;
+        font-size: 15px;
         line-height: 150%;
         margin-top:5.41vw;
     }
@@ -287,20 +287,20 @@
         line-height: 2.8125vw;
         margin-top: 3.85vw;
     }
-    .helppls{
+    .navborder{
         border-bottom: solid 0.052vw #8a8a8a;
         margin-top:7vw;
         margin-left:6.51vw;
         margin-right:6.51vw;
     }
-    .whatev .focus{
+    .sbsinfo .focus{
         font-size: 1.875vw;
         line-height: 150%;
         font-family: 'SF UI Display Light';
         color: #04E05E;
         padding-bottom: 2%;
     }
-    .whatev .notfocus{
+    .sbsinfo .notfocus{
         font-size: 1.5625vw;
         line-height: 150%;
         font-family: 'SF UI Display Light';
@@ -309,12 +309,11 @@
     }
     #aboutigem .content{
         font-family: 'SF UI Display Light';
-        font-size: 1.875vw;
+        font-size: 1.5vw;
         line-height: 150%;
         margin-top:5.41%;
     }
 }
-
 
 .gradient{
     background: linear-gradient(90deg, #02D973 0%, #05E451 100%);
@@ -370,4 +369,10 @@ video{
 .carousel{
     width:80%;
     padding-top: 5vw;
+}
+section{
+    padding-bottom: 20vw;
+}
+#hero #content a{
+    color:white;
 }

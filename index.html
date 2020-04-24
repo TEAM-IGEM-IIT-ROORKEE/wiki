@@ -71,7 +71,7 @@
             <!-- Collapsible content -->
         
         </nav>
-        <div class="fixed-top helppls"></div>
+        <div class="fixed-top navborder"></div>
         <!--/.Navbar-->
         <div class="text-center">
             <div id="hero">
@@ -106,7 +106,7 @@
                 </div>
                 <div id="content">
                     <p id="intro">Pyomancer: Engineering novel antibacterial protein complexes for treating drug resistant infections</p>
-                    <button href="#" class="hero-btn btn">Get started</button><br>
+                    <button class="hero-btn btn" id="getstarted" onclick="getstarted()">Get started</button><br>
                     <button href="#" class="hero-btn btn">We need your support!</button>  
                 </div>
                 <img src = "img/herobg.png" class="img-fluid img-responsive herobg">
@@ -116,22 +116,22 @@
         </div>
 
         <div class="main-content text-center">
-            <section id="aboutigem" data-aos="fade-up">
+            <section id="aboutigem" data-aos="fade-up" name="aboutigem">
                 <div id="heading">About iGEM</div>
                 <div id="subhead">The World’s Largest Synthetic Biology Competition</div>
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
                         <div class="row">
-                            <div class="whatev line col">
+                            <div class="sbsinfo line col">
                                 <div class="focus">47+</div>
                                 <div class="notfocus">Countries</div>
                             </div>
-                            <div class="whatev line col">
+                            <div class="sbsinfo line col">
                                 <div class="focus">350+</div>
                                 <div class="notfocus">Teams</div>
                             </div>
-                            <div class="whatev col">
+                            <div class="sbsinfo col">
                                 <div class="focus">4000+</div>
                                 <div class="notfocus">Participants</div>
                             </div>
@@ -147,7 +147,15 @@
                             <source src="img/About_iGEM_1.mp4" type="video/mp4">
                         </video>
                     <div id="part-2">
-                        iGEM’s biggest program is the iGEM Competition. The iGEM competition gives students the opportunity to push the boundaries of synthetic biology by tackling everyday issues facing the world. Made up of primarily university students, multidisciplinary teams work together to design, build, test, and measure a system of their own design using interchangeable biological parts and standard molecular biology techniques. Every year nearly 6,000 people dedicate their summer to iGEM and then come together in the fall to present their work and compete at the annual Jamboree.
+                        The iGEM competition is an annual, worldwide synthetic biology event aimed at undergraduate university students. It began in January 2003 as an independent
+                        study course at MIT (Massachusettes Institute of Technology), USA and currently around 4000 students and 350+ Teams across the world participate to solve
+                         local and global problems using the tools of Synthetic Biology or Engineering Biology 2.0.
+                    </div>
+                    <div id="part-3">
+                        Multidisciplinary teams work together on a year-long project to design, build, test, and measure a system of their own design using interchangeable biological 
+                        parts and standard molecular biology techniques. iGEM actually encourages teams to create an impact on the society for good. It involves various public engagements 
+                        and human practices that are appreciated at the global level. There are a lot of great startups now that were once an iGEM project. This platform fosters the very 
+                        nature of Bio-entrepreneurship!
                     </div>
                     <div id="igemcarousel" class="carousel slide ml-auto mr-auto" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -185,16 +193,17 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script  src="https://code.jquery.com/jquery-3.5.0.js"  integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
-          AOS.init();
+            AOS.init();
             $('.carousel').carousel({
                 interval: 2500
             })
         </script>
+        <script src="js/button.js"></script>
     </body>
 </html>
