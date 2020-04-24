@@ -1,2 +1,1 @@
-# Portifolio
-## Basic Portifolio
+# Wiki for iGEM IITR
