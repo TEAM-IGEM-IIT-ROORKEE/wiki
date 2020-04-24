@@ -13,6 +13,16 @@ function problem(){
         scrollTop: $("#problem").offset().top - 0.2*$(window).width()    
     }, 2000);
 };
+function solution(){
+    $("html, body").animate({
+        scrollTop: $("#solution").offset().top - 0.2*$(window).width()    
+    }, 2000);
+};
+function support(){
+    $("html, body").animate({
+        scrollTop: $("#support").offset().top - 0.2*$(window).width()    
+    }, 2000);
+};
 function home(){
     $("html, body").animate({
         scrollTop: 0    

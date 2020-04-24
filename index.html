@@ -44,26 +44,26 @@
             <div class="collapse navbar-collapse" id="basicExampleNav">
                 <!-- Links -->
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" onclick="home()" id="homelink">Home</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" onclick="home()">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="getstarted()" id="igemlink">iGEM</a>
+                        <a class="nav-link" onclick="getstarted()">iGEM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="team()" id="teamlink">Team</a>
+                        <a class="nav-link" onclick="team()">Team</a>
                     </li>  
                     <li class="nav-item">
-                        <a class="nav-link" onclick="problem()" id="problink">Problem</a>
+                        <a class="nav-link" onclick="problem()">Problem</a>
                     </li> 
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="sollink">Solution</a>
+                        <a class="nav-link" onclick="solution()">Solution</a>
                     </li> 
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="suplink">Support</a>
+                        <a class="nav-link" onclick="support()">Support</a>
                     </li>    
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="contlink">Contact</a>
+                        <a class="nav-link" onclick="contact()">Contact</a>
                     </li>        
                 </ul>
                 <!-- Links -->
@@ -107,7 +107,7 @@
                 <div id="content">
                     <p id="intro">Pyomancer: Engineering novel antibacterial protein complexes for treating drug resistant infections</p>
                     <button class="hero-btn btn" id="getstarted" onclick="getstarted()">Get started</button><br>
-                    <button href="#" class="hero-btn btn">We need your support!</button>  
+                    <button onclick="support()" class="hero-btn btn">We need your support!</button>  
                 </div>
                 <img src = "img/herobg.png" class="img-fluid img-responsive herobg">
             </div>
@@ -202,13 +202,75 @@
                 <img src="img/The Team.jpg" class="img-responsive img-fluid" id="img">
             </section>
             <section id="problem" class="target" data-aos="fade-up">
-
+                <div id="heading">The Problem</div>
+                <div id="subhead">Antimicrobial Resistance & Superbugs: A rundown of the global public health crisis</div>
+                <div class="content">
+                    700,000​ people die each year from infection by drug-resistant pathogens.<br><b> ​It is projected to have 
+                    a devastating effect on the world, creating a medical emergency much larger than the current 
+                    coronavirus pandemic. India is emerging as the epicentre of this phenomenon, where nearly 60,000 
+                    newborns every year die of MDR infections with a mortality rate of more than 70%.</b>​ 
+                    <br><br>Antimicrobial Resistance (AMR) is a condition when micro-organisms – bacteria, fungi, viruses, 
+                    and parasites – evolve resistance to antimicrobial substances, like antibiotics. This can occur naturally 
+                    through adaption to the environment, which is accelerated due to incessant and uncontrolled use of 
+                    antibiotics.
+                </div>
+                <div class="row">
+                    <div class="col mt-auto mb-auto">
+                        <img src="img/The_Problem_01.jpg" class="img-fluid img-responsive">
+                    </div>
+                    <div class="col col-centered">
+                        <img src="img/The_Problem_02.png" class="img-fluid img-responsive">
+                    </div>
+                </div>
+                <div class="src">Source: ICAR-SBI Sugarcane Breeding Institute, Coimbatore</div>
+                <div id='subhead'>
+                        Along with global health concerns, Antimicrobial Resistance poses a global economic 
+                        threat and it is claimed that Superbugs are as big a global threat as climate change 
+                        and warfare.
+                </div>
+            </section>
+            <section id="solution" class="target" data-aos="fade-up">
+                <div id="heading">
+                    Our Solution
+                </div>
+                <div id="subhead">
+                    Pyomancer: Engineering novel antibacterial protein complexes for treating drug resistant 
+                    infections
+                </div>
+                <div class="content">
+                    Bacteriophages are viruses that naturally kill bacteria. ​We aim to combine the properties 
+                    of phages with natural antibacterial proteins to generate targeted antibacterials. Here, 
+                    we plan to create a crossover between a pyocin and a phage. In the product protein, the 
+                    phage tail fibre will allow for binding to the target bacteria and the killing action will 
+                    be performed by the pyocin body.
+                </div>
+                <div class="row">
+                    <div class="col mt-auto mb-auto">
+                        <img src="img/Our_Solution_01.png" class="img-fluid img-responsive">
+                    </div>
+                    <div class="col col-centered">
+                        <img src="img/Our_Solution_02.png" class="img-fluid img-responsive">
+                    </div>
+                </div>
+            </section>
+            <section id="support" class="target" data-aos="fade-up">
+                <div id="heading">We need your support!</div>
+                <div class='content'>
+                    Participation in this competition requires us to travel to MIT, Boston to attend the 2020 
+                    edition of the Giant Jamboree, the culmination event of iGEM. We wish to seek the help of 
+                    our expansive alumni network to procure funds for the registration and travel. We hope you 
+                    can help us pioneer this effort and represent IIT Roorkee at a global stage. Please click here 
+                    to visit our crowdfunding platform or contact us for more details.
+                </div>
             </section>
         </div>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script  src="https://code.jquery.com/jquery-3.5.0.js"  integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="crossorigin="anonymous"></script>
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
