@@ -151,7 +151,7 @@
         padding-right:6.51vw;
     }
     body{
-        padding-top:100px;
+        padding-top:120px;
     }
     #logos{
         margin-left:6.51vw;
@@ -189,6 +189,14 @@
         font-size: 33.3px;
         line-height: 40px;
     }
+    #aboutigem #subhead{
+        font-family: 'SF UI Display Medium';
+        font-style: bold;
+        font-weight: normal;
+        font-size: 23.4375px;
+        line-height: 28.125px;
+        margin-top: 3.85vw;
+    }
 }
 @media screen and (min-width: 769px) {
     #mainnav{
@@ -201,7 +209,7 @@
         padding-right:6.51vw;
     }
     body{
-        margin-top:8.43vw;
+        margin-top:12vw;
         /*margin-left:6.51vw;
         margin-right:6.51vw;*/
     }
@@ -251,6 +259,20 @@
         font-size: 3.33vw;
         line-height: 4vw;
     }
+    #aboutigem #subhead{
+        font-family: 'SF UI Display Medium';
+        font-style: bold;
+        font-weight: normal;
+        font-size: 2.34375vw;
+        line-height: 2.8125vw;
+        margin-top: 3.85vw;
+    }
+    .helppls{
+        border-bottom: solid 0.052vw #8a8a8a;
+        margin-top:7vw;
+        margin-left:6.51vw;
+        margin-right:6.51vw;
+    }
 }
 
 
@@ -288,9 +310,30 @@
     margin-left: 7vw;
     margin-right: 7vw;
 }
-.helppls{
-    border-bottom: solid 0.052vw #8a8a8a;
-    margin-top:7.1vw;
-    margin-left:6.51vw;
-    margin-right:6.51vw;
+#subhead{
+    padding-bottom: 5.41vw;
+}
+.whatev .focus{
+    font-size: 1.875vw;
+    line-height: 150%;
+    font-family: 'SF UI Display Light';
+    color: #04E05E;
+    padding-bottom: 2%;
+}
+.whatev .notfocus{
+    font-size: 1.5625vw;
+    line-height: 150%;
+    font-family: 'SF UI Display Light';
+    color:#8A8A8A;
+    
+}
+.line:after{
+    content: "";
+    background-color: #05E354;
+    position: absolute;
+    width: 1px;
+    height: 3.3854vw;
+    left:100%;
+    top:25%;
+    display: block;
 }
