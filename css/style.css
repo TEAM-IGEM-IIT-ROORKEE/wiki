@@ -337,3 +337,10 @@
     top:25%;
     display: block;
 }
+
+#aboutigem .content{
+    font-family: 'SF UI Display Light';
+    font-size: 1.875vw;
+    line-height: 150%;
+    margin-top:5.41%;
+}
