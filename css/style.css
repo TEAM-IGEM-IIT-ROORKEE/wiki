@@ -384,5 +384,9 @@ section{
 }
 
 #team #img{
-    width:80%
+    width:80%;
+}
+
+#mainnav .navbar-nav li.active > a {
+	color: #02D973;
 }

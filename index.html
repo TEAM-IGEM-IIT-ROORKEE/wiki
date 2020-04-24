@@ -33,7 +33,7 @@
         <!--Navbar-->
         <nav class="navbar navbar-expand-md navbar-light fixed-top" id="mainnav">
             <!-- Navbar brand -->
-            <a class="navbar-brand" href="#" id="ov"><span class="gradient">iGEM</span> &nbspIIT Roorkee</a>
+            <a class="navbar-brand" onclick="home()" id="ov"><span class="gradient">iGEM</span> &nbspIIT Roorkee</a>
             <!-- Collapse button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
             aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,25 +45,25 @@
                 <!-- Links -->
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" onclick="home()" id="homelink">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">iGEM</a>
+                        <a class="nav-link" onclick="getstarted()" id="igemlink">iGEM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
+                        <a class="nav-link" onclick="team()" id="teamlink">Team</a>
                     </li>  
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Problem</a>
+                        <a class="nav-link" onclick="problem()" id="problink">Problem</a>
                     </li> 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Solution</a>
+                        <a class="nav-link" href="#" id="sollink">Solution</a>
                     </li> 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Support</a>
+                        <a class="nav-link" href="#" id="suplink">Support</a>
                     </li>    
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#" id="contlink">Contact</a>
                     </li>        
                 </ul>
                 <!-- Links -->
@@ -73,7 +73,7 @@
         </nav>
         <div class="fixed-top navborder"></div>
         <!--/.Navbar-->
-        <div class="text-center">
+        <div class="text-center target">
             <div id="hero">
                 <div id="logos">
                     <div class="row">
@@ -116,7 +116,7 @@
         </div>
 
         <div class="main-content text-center">
-            <section id="aboutigem" data-aos="fade-up">
+            <section id="aboutigem" class="target" data-aos="fade-up">
                 <div id="heading">About iGEM</div>
                 <div id="subhead">The World’s Largest Synthetic Biology Competition</div>
                 <div class="row">
@@ -189,7 +189,7 @@
                       </div>
                 </div>
             </section>
-            <section id="team" data-aos="fade-up">
+            <section id="team" class="target" data-aos="fade-up">
                 <div id="heading">Our Team</div>
                 <div id="subhead">The first-ever iGEM team from IIT Roorkee!</div>
                 <div class="content">
@@ -200,6 +200,9 @@
                      global level.
                 </div>
                 <img src="img/The Team.jpg" class="img-responsive img-fluid" id="img">
+            </section>
+            <section id="problem" class="target" data-aos="fade-up">
+
             </section>
         </div>
 
@@ -216,6 +219,6 @@
                 interval: 2500
             })
         </script>
-        <script src="js/button.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
