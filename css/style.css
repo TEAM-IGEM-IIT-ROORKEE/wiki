@@ -518,6 +518,7 @@ section{
 }
 
 #contact{
+    padding-top: 10vw;
     padding-bottom: 15vw;
 }
 
@@ -563,4 +564,9 @@ section{
 
 #solution .content{
     padding-bottom: 5vw;
+}
+
+#support{
+    padding-bottom: 10vw;
+    border-bottom: 1px solid #8A8A8A;
 }
