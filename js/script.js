@@ -25,7 +25,7 @@ function support(){
 };
 function contact(){
     $("html, body").animate({
-        scrollTop: $("#contact").offset().top - 0.2*$(window).width()    
+        scrollTop: $("#contact").offset().top - 0.05*$(window).width()    
     }, 2000);
 };
 function home(){
