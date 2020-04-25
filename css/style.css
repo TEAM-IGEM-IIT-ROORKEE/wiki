@@ -275,16 +275,20 @@
         font-size:10px;
         padding-bottom: 2vw;
     }
+    .footer-links img{
+        height: 35px;
+    }
 }
 @media screen and (min-width: 769px) {
     #mainnav{
         font-family: 'SF UI Display Light';
-        border-top:3.375vw solid white;
+        /*border-top:3.375vw solid white;*/
         /*border-bottom: solid 0.052vw #8a8a8a;*/
         background-color: white;
-        padding:0;
         padding-left:6.51vw;
         padding-right:6.51vw;
+        padding-top: 2.2vw;
+        padding-bottom: 2.2vw;
     }
     body{
         margin-top:12vw;
@@ -429,6 +433,9 @@
         font-family: 'SF UI Display Bold';
         font-size: 1.5vw;
     }    
+    .footer-links img{
+        height: 70%;
+    }
 }
 
 .gradient{
@@ -460,7 +467,9 @@
     position: relative;
     top:-5vw;
 }
-
+body{
+    background-color:rgba(229, 229, 229,0.2);
+}
 .main-content{
     margin-left: 7vw;
     margin-right: 7vw;
@@ -550,7 +559,4 @@ section{
     padding:0;
 }
 
-.footer-links img{
-    height: 70%;
-}
 
