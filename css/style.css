@@ -570,3 +570,8 @@ section{
     padding-bottom: 10vw;
     border-bottom: 1px solid #8A8A8A;
 }
+
+.problem-imgs{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
