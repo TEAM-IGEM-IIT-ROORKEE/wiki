@@ -167,7 +167,7 @@
     }
     #mainnav li{
         font-family: "SF UI Text Regular";
-        font-size: 10px;
+        font-size: 15px;
     }
     #intro{
         font-family: 'SF UI Text Italic';
@@ -279,6 +279,13 @@
     }
     .footer-links img{
         height: 35px;
+    }
+    #team #img{
+        width:90%;
+    }
+    .carousel{
+        width:90%;
+        padding-top: 5vw;
     }
 }
 @media screen and (min-width: 769px) {
@@ -438,6 +445,13 @@
     .footer-links img{
         height: 70%;
     }
+    #team #img{
+        width:65%;
+    }
+    .carousel{
+        width:65%;
+        padding-top: 5vw;
+    }
 }
 
 .gradient{
@@ -492,10 +506,7 @@ video{
     padding-top: 3vw;
     padding-bottom: 3vw;
 }
-.carousel{
-    width:65%;
-    padding-top: 5vw;
-}
+
 section{
     padding-bottom: 20vw;
 }
