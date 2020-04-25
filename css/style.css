@@ -223,6 +223,32 @@
         line-height: 150%;
         margin-top:5.41%;
     }
+    .line:after{   
+        height: 33.85px;
+    }
+    .schedule #heading{
+        font-family: 'SF UI Display Medium';
+        font-style: normal;
+        font-size: 33.3px;
+        line-height: 40px;
+        margin:0;
+    }
+    .schedule #subhead{
+        font-family: 'SF UI Display Light';
+        margin:0;
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .contact-form .details{
+        font-size: 18.75px;
+        padding:90px;
+    }
+    .tel img{
+        width:35px;
+    }
+    .contact-form .addr{
+        margin-bottom: 26px;
+    }
 }
 @media screen and (min-width: 769px) {
     #mainnav{
@@ -330,6 +356,31 @@
         font-size:1vw;
         padding-bottom: 2vw;
     }
+    .line:after{   
+        height: 3.3854vw;
+    }
+    .schedule #heading{
+        font-family: 'SF UI Display Medium';
+        font-style: normal;
+        font-size: 3.33vw;
+        line-height: 4vw;
+        margin:0;
+    }
+    .schedule #subhead{
+        font-family: 'SF UI Display Light';
+        margin:0;
+        font-size: 1.8vw;
+        line-height: 150%;
+    }
+    .contact-form .details{
+        font-size: 1.875vw;
+    }
+    .contact-form .addr{
+        margin-bottom: 2.6vw;
+    }
+    .tel img{
+        width:80%;
+    }
 }
 
 .gradient{
@@ -374,7 +425,6 @@
     background-color: #05E354;
     position: absolute;
     width: 1px;
-    height: 3.3854vw;
     left:100%;
     top:25%;
     display: block;
@@ -406,4 +456,31 @@ section{
 
 #mainnav .navbar-nav li.active > a {
 	color: #02D973;
+}
+
+#contact{
+    padding-bottom: 15vw;
+}
+
+.contact-form {
+    background-color:  rgba(215, 234, 240, 0.34);
+}
+
+.contact-form .row{
+    margin:0;
+}
+
+.contact-form .details{
+    padding:9vw;
+    font-family: 'SF UI Display Light';
+    line-height: 150%;
+    padding-bottom: 0;
+}
+
+.map{
+    padding:0;
+}
+
+.msg{
+    padding-top:4vw;
 }
