@@ -249,6 +249,32 @@
     .contact-form .addr{
         margin-bottom: 26px;
     }
+    .contact-footer{
+        font-family: 'SF UI Display Ultralight';
+        font-size: 15px;
+    }
+    
+    .contact-footer .tel img{
+        width:30px;
+    }
+    .footer-nav .nav{
+        font-size: 10px;
+        font-family: 'SF UI Text Regular';
+    }
+    .footer-copyright{
+        font-size: 12.5px;
+        font-family: 'SF UI Display Light';
+        color:#474747;
+    }
+    #other-subhead{
+        font-family: 'SF UI Display Bold';
+        font-size: 15px;
+    }    
+    .src{
+        font-family:'SF UI Display Thin';
+        font-size:10px;
+        padding-bottom: 2vw;
+    }
 }
 @media screen and (min-width: 769px) {
     #mainnav{
@@ -379,8 +405,30 @@
         margin-bottom: 2.6vw;
     }
     .tel img{
-        width:80%;
+        width:70%;
     }
+    .contact-footer{
+        width:23vw;
+        font-family: 'SF UI Display Ultralight';
+        font-size: 1.25vw;
+    }
+    
+    .contact-footer .tel img{
+        width:60%;
+    }
+    .footer-nav .nav{
+        font-size: 1vw;
+        font-family: 'SF UI Text Regular';
+    }
+    .footer-copyright{
+        font-size: 1.25vw;
+        font-family: 'SF UI Display Light';
+        color:#474747;
+    }
+    #other-subhead{
+        font-family: 'SF UI Display Bold';
+        font-size: 1.5vw;
+    }    
 }
 
 .gradient{
@@ -434,7 +482,7 @@ video{
     padding-bottom: 3vw;
 }
 .carousel{
-    width:80%;
+    width:65%;
     padding-top: 5vw;
 }
 section{
@@ -451,7 +499,7 @@ section{
 }
 
 #team #img{
-    width:80%;
+    width:65%;
 }
 
 #mainnav .navbar-nav li.active > a {
@@ -474,7 +522,7 @@ section{
     padding:9vw;
     font-family: 'SF UI Display Light';
     line-height: 150%;
-    padding-bottom: 0;
+    padding-bottom: auto;
 }
 
 .map{
@@ -484,3 +532,25 @@ section{
 .msg{
     padding-top:4vw;
 }
+
+.footer{
+    background-color: #000000;
+    color:#FFFFFF;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 4.5vw;
+    padding-bottom:6vw;    
+}
+
+.footer-upper{
+    padding-bottom: 5vw;
+}
+
+.footer-links .col{
+    padding:0;
+}
+
+.footer-links img{
+    height: 70%;
+}
+

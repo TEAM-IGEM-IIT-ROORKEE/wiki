@@ -23,6 +23,11 @@ function support(){
         scrollTop: $("#support").offset().top - 0.2*$(window).width()    
     }, 2000);
 };
+function contact(){
+    $("html, body").animate({
+        scrollTop: $("#contact").offset().top - 0.2*$(window).width()    
+    }, 2000);
+};
 function home(){
     $("html, body").animate({
         scrollTop: 0    
