@@ -248,7 +248,7 @@
     .tel img{
         width:35px;
     }
-    .contact-form .addr{
+    .addr{
         margin-bottom: 26px;
     }
     .contact-footer{
@@ -405,13 +405,13 @@
         line-height: 150%;
     }
     .contact-form .details{
-        font-size: 1.875vw;
+        font-size: 1.5vw;
     }
-    .contact-form .addr{
+    .addr{
         margin-bottom: 2.6vw;
     }
     .tel img{
-        width:70%;
+        width:60%;
     }
     .contact-footer{
         width:23vw;
@@ -530,7 +530,7 @@ section{
 }
 
 .contact-form .details{
-    padding:9vw;
+    padding:7vw;
     font-family: 'SF UI Display Light';
     line-height: 150%;
     padding-bottom: auto;
@@ -561,4 +561,6 @@ section{
     padding:0;
 }
 
-
+#solution .content{
+    padding-bottom: 5vw;
+}
