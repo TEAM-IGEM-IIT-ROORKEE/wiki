@@ -203,7 +203,7 @@
         font-size: 18.75px;
         line-height: 150%;
         font-family: 'SF UI Display Light';
-        color: #04E05E;
+        color: #5FAFE1;
         padding-bottom: 2%;
     }
     .sbsinfo .notfocus{
@@ -368,7 +368,7 @@
         font-size: 1.875vw;
         line-height: 150%;
         font-family: 'SF UI Display Light';
-        color: #04E05E;
+        color: #5FAFE1;
         padding-bottom: 2%;
     }
     .sbsinfo .notfocus{
@@ -455,7 +455,8 @@
 }
 
 .gradient{
-    background: linear-gradient(90deg, #02D973 0%, #05E451 100%);
+    background: #215698;
+    background: linear-gradient(90deg, #347CB1 0%, #215698 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -472,16 +473,22 @@
 .logo2{
     width:100%;
 }
+.logo3{
+    width: 250.67px;
+    margin: 25px 0;
+}
 .hero-btn{
     font-family: 'SF UI Text Regular';
     color:#FFFFFF;
-    background-image: linear-gradient(90deg, #02D973 -0.32%, #05E451 100.32%);
+    background-image: linear-gradient(90deg, #214289 -0.32%, #3D87B8 100.32%);
     border-radius: 10000px;
+}
+.btn:hover{
+    color: #FFFFFF;
+    font-weight: bold;
 }
 .herobg{
     z-index: -1;
-    position: relative;
-    top:-5vw;
 }
 body{
     background-color:rgba(229, 229, 229,0.2);
@@ -495,7 +502,7 @@ body{
 }
 .line:after{
     content: "";
-    background-color: #05E354;
+    background-color: #5FAFE1;
     position: absolute;
     width: 1px;
     left:100%;
@@ -524,8 +531,79 @@ section{
     width:65%;
 }
 
+.team-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-members-container {
+    display: grid;
+    grid-template-columns: repeat(4, 160px);
+    row-gap: 50px;
+    column-gap: 30px;
+}
+
+@media screen and (max-width: 850px) {
+    .team-members-container {
+        grid-template-columns: repeat(3, 160px);
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .team-members-container {
+        grid-template-columns: repeat(2, 160px);
+        row-gap: 25px;
+        column-gap: 15px;
+    }
+    
+}
+
+.member-card {
+    width: 160px;
+    height: 160px;
+    background-color: #EEF6F9;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.member-card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'SF UI Display Semibold';
+    padding: 10px;
+    font-size: 14px;
+}
+
+.member-role {
+    font-family: 'SF UI Display Light';
+    font-size: 10px;
+}
+
+.member-avatar {
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.member-image {
+    width: 90px;
+    position: relative;
+    bottom: 25px;
+}
+
+.navbar-brand:hover {
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
 #mainnav .navbar-nav li.active > a {
-	color: #02D973;
+	color: #5CACDE;
 }
 
 #contact{
@@ -577,7 +655,7 @@ section{
     padding-bottom: 5vw;
 }
 
-#support{
+#solution{
     padding-bottom: 10vw;
     border-bottom: 1px solid #8A8A8A;
 }
