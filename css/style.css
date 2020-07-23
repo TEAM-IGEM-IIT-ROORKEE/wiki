@@ -539,18 +539,17 @@ section{
 
 .team-members-container {
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(4, auto);
     row-gap: 50px;
     column-gap: 30px;
 }
 
 .member-card {
-    width: 200px;
-    height: 200px;
     background-color: #EEF6F9;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
 }
 
 .member-card-header {
@@ -559,45 +558,47 @@ section{
     align-items: flex-start;
     font-family: 'SF UI Display Semibold';
     padding: 10px;
-    font-size: 14px;
+    font-size: 1.8vw;
+    text-align: left;
 }
 
 .member-role {
     font-family: 'SF UI Display Light';
-    font-size: 10px;
+    font-size: 1.15vw;
 }
 
 .member-avatar {
-    margin-top: auto;
-    margin-left: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .member-image {
     height: 145px;
     position: relative;
     bottom: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 
 @media screen and (max-width: 950px) {
     .team-members-container {
-        grid-template-columns: repeat(3, 200px);
+        grid-template-columns: repeat(3, auto);
     }
-    
+    .member-card-header {
+        font-size: 16px;
+    }
+    .member-role {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 750px) {
     .team-members-container {
-        grid-template-columns: repeat(2, 175px);
+        grid-template-columns: repeat(2, auto);
         row-gap: 20px;
         column-gap: 10px;
-    }
-    .member-card {
-        width: 175px;
-        height: 175px;
-    }
-    .member-image {
-        bottom: 24px;
     }
 }
 
