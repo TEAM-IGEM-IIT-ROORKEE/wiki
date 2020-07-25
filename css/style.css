@@ -609,6 +609,9 @@ section{
         row-gap: 20px;
         column-gap: 10px;
     }
+    .member-image {
+        height: 160px;  
+    }
 }
 
 .navbar-brand:hover {
