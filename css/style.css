@@ -533,6 +533,7 @@ section{
 
 .team-section {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -546,10 +547,10 @@ section{
 
 .member-card {
     background-color: #EEF6F9;
-    border-radius: 2px;
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
+    justify-content: space-between;
+    border-radius: 4px;
 }
 
 .member-card-header {
@@ -558,13 +559,19 @@ section{
     align-items: flex-start;
     font-family: 'SF UI Display Semibold';
     padding: 15px;
-    font-size: 1.8vw;
+    padding-bottom: 0;
+    font-size: 1.55vw;
     text-align: left;
+}
+
+.member-name {
+    text-transform: capitalize;
 }
 
 .member-role {
     font-family: 'SF UI Display Light';
-    font-size: 1.15vw;
+    font-size: 1.0vw;
+    text-transform: uppercase;
 }
 
 .member-avatar {
@@ -574,11 +581,13 @@ section{
 }
 
 .member-image {
-    height: 180px;
-    position: relative;
-    bottom: 0px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    height: 220px;  
+    max-width: 100%;
+    border-bottom-right-radius: 4px;
+}
+
+.support-team-heading {
+    margin: 55px 0 30px 0 !important;
 }
 
 
@@ -590,7 +599,7 @@ section{
         font-size: 16px;
     }
     .member-role {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 
